@@ -47,7 +47,6 @@ The **Interactive Museum Blog Project** aims to create an engaging platform that
 - **MongoDB**  
 - **Wikipedia API**  
 - **Google API**  
-- (Add any other technologies you may have used)  
 
 ---
 
