@@ -1,0 +1,914 @@
+{
+    "cities": [
+            {
+              "name": "Adana",
+              "museums": [
+                "Adana Arkeoloji Müzesi",
+                "Adana Etnografya Müzesi",
+                "Atatürk Bilim ve Kültür Müzesi",
+                "Misis Mozaik Müzesi"
+              ]
+            },
+            {
+              "name": "Adıyaman",
+              "museums": [
+                "Adıyaman Müzesi",
+                "Nemrut Dağı Açık Hava Müzesi"
+              ]
+            },
+            {
+              "name": "Afyonkarahisar",
+              "museums": [
+                "Afyonkarahisar Arkeoloji Müzesi",
+                "Afyon Bolvadin Müzesi"
+              ]
+            },
+            {
+              "name": "Ağrı",
+              "museums": [
+                "İshak Paşa Sarayı"
+              ]
+            },
+            {
+              "name": "Amasya",
+              "museums": [
+                "Amasya Arkeoloji ve Mumya Müzesi",
+                "Saraydüzü Milli Mücadele Müzesi",
+                "Amasya Sabuncuoğlu Tıp Ve Cerrahi Tarihi Müzesi"
+              ]
+            },
+            {
+              "name": "Aksaray",
+              "museums": [
+                "Aksaray Müzesi"
+              ]
+            },
+            {
+                "name": "Ankara",
+                "museums": [
+                  "Alagöz Karargâh Müzesi",
+                  "Anadolu Mimarlık ve Mobilya Kültürel Miras Müzesi",
+                  "Ankara Atatürk Evi Müzesi (Başkent)",
+                  "Ankara Devlet Resim ve Heykel Müzesi",
+                  "Ankara Roma Hamamı (Roma Hamamı Örenyeri)",
+                  "Ankara Roma Tiyatrosu",
+                  "Ankara Şereflikoçhisar Üniversitesi Bilim ve Sanat Müzesi",
+                  "Ankara Üniversitesi Arkeoloji Müzesi",
+                  "Ankara Üniversitesi Eğitim Bilimleri Fakültesi Oyuncak Müzesi",
+                  "Ankara Üniversitesi Ziraat Fakültesi Müzesi",
+                  "Ankara Vakıf Eserleri Müzesi",
+                  "Atatürk ve Kurtuluş Savaşı Müzesi",
+                  "Atatürk Eğitim Müzesi",
+                  "Augustus Tapınağı",
+                  "Beypazarı Kent Tarihi Müzesi",
+                  "Beypazarı Kültür ve Tarih Müzesi",
+                  "Beypazarı Anadolu Açık Hava Müzesi Yaşayan Köy",
+                  "Cin Ali Müzesi",
+                  "Cumhuriyet Müzesi",
+                  "Çamlıdere Doğa ve Hayvan Müzesi",
+                  "Çamlıdere Kutsal Emanetler Müzesi",
+                  "Çamlıdere Terazi Müzesi",
+                  "Çankaya Atatürk Köşkü Müzesi",
+                  "Çengelhan Rahmi M. Koç Müzesi",
+                  "Çubuk Şehir Müzesi",
+                  "Erimtan Arkeoloji ve Sanat Müzesi",
+                  "Feza Gürsey Bilim Merkezi",
+                  "Gazi Üniversitesi Prof. Dr. Metin Aktaş Zooloji Müzesi",
+                  "Gazi Üniversitesi Prof. Dr. Ülker Muncuk Müzesi",
+                  "Gazi Üniversitesi Resim Heykel Müzesi",
+                  "Gazi Üniversitesi Somut Olmayan Kültürel Miras Müzesi",
+                  "Hacettepe Üniversitesi Hamiye Çolakoğlu Seramik Müzesi",
+                  "Hacettepe Üniversitesi Sanat Müzesi",
+                  "Haritacılık Müzesi",
+                  "Hava Kuvvetleri Müzesi",
+                  "Jandarma Müzesi",
+                  "Kurtuluş Savaşı Müzesi",
+                  "Milli Mücadelede Atatürk Konutu ve Demiryolları Müzesi",
+                  "Milli Savunma Bakanlığı Arşiv Müzesi",
+                  "MIT Casusluk Müzesi",
+                  "MKE Sanayi ve Teknoloji Müzesi",
+                  "ODTÜ Arkeoloji Müzesi",
+                  "ODTÜ Bilim ve Teknoloji Müzesi",
+                  "PTT Pul Müzesi",
+                  "TCDD Açık Hava Buharlı Lokomotif Müzesi",
+                  "TCDD Malıköy Tren İstasyonu Müzesi",
+                  "TCDD Müzesi ve Sanat Galerisi",
+                  "TCMB Para Müzesi",
+                  "TED Ankara Koleji Okul Müzesi",
+                  "Topçu ve Füze Okulu Müzesi",
+                  "Toprak Mahsulleri Ofisi Müzesi",
+                  "TRT Yayıncılık Tarihi Müzesi",
+                  "Türk Dünyası ve Komşuları Müzesi",
+                  "Türk Hamam Müzesi",
+                  "Türk Hava Kurumu Müzesi",
+                  "Türk Telekom Telekomünikasyon Müzesi",
+                  "Türkiye Barolar Birliği Hukuk Müzesi",
+                  "Türkiye İş Bankası İktisadi Bağımsızlık Müzesi",
+                  "Ulucanlar Cezaevi Müzesi",
+                  "Ülker Zaim Müzesi",
+                  "Ziraat Bankası Müzesi"
+                ]
+              },
+              {
+                "name": "Antalya",
+                "museums": [
+                  "Alanya Arkeoloji Müzesi",
+                  "İçkale Müzesi",
+                  "Alanya Atatürk Evi Müzesi",
+                  "Alanya Kalesi",
+                  "Alanya Müzesi",
+                  "Anadolu Oyuncak Müzesi",
+                  "Andriake Örenyeri",
+                  "Antalya Atatürk Evi Müzesi",
+                  "Antalya Etnografya Müzesi",
+                  "Antalya Kadın Müzesi",
+                  "Antalya Mevlevihane Müzesi",
+                  "Antalya Müzesi",
+                  "Antalya Oyuncak Müzesi",
+                  "Aspendos Örenyeri",
+                  "Aziz Nikolaos Anıt Müzesi",
+                  "Karain Mağarası",
+                  "Kızılkule Etnografya Müzesi",
+                  "Lymra Örenyeri",
+                  "Myra Örenyeri",
+                  "Olympos Örenyeri",
+                  "Patara Örenyeri",
+                  "Perge Örenyeri"
+                ]
+              },
+              {
+                "name": "Artvin",
+                "museums": [
+                  "Dikyamaç Köyü ve Çevresi Yaşam Tarzı Müzesi",
+                  "Hopa Kültür Evi ve Müzesi",
+                  "Tepeköy Geleneksel Kültür Müzesi"
+                ]
+              },
+              {
+                "name": "Aydın",
+                "museums": [
+                  "Adnan Menderes Demokrasi Müzesi",
+                  "Afrodisias Müzesi",
+                  "Alabanda Örenyeri",
+                  "Alinda Örenyeri",
+                  "Apollon Tapınağı",
+                  "Aydın Arkeoloji Müzesi",
+                  "Aydın İl Eğitim Tarihi Müzesi",
+                  "Karacasu Etnografya Müzesi",
+                  "Magnesia Örenyeri",
+                  "Milet Müzesi",
+                  "Milet Örenyeri",
+                  "Nazilli Etnografya Müzesi",
+                  "Nysa Sultanhisar Örenyeri",
+                  "Priene Örenyeri",
+                  "Tralleis Örenyeri",
+                  "Yörük Ali Efe Evi Müzesi"
+                ]
+              },
+              {
+                "name": "Balıkesir",
+                "museums": [
+                  "Ayşe Sıdıka Erke Etnografya Müzesi",
+                  "Balıkesir Kuvay-ı Milliye Müzesi",
+                  "Balıkesir Ulusal Fotoğraf Müzesi",
+                  "Tahtakuşlar Etnografya Müzesi - Edremit"
+                ]
+              },
+              {
+                "name": "Bilecik",
+                "museums": [
+                  "Bilecik Müzesi",
+                  "Söğüt Ertuğrul Gazi Müzesi",
+                  "Bilecik Belediyesi Yaşayan Şehir Müzesi"
+                ]
+              },
+              {
+                "name": "Bitlis",
+                "museums": [
+                  "Ahlat Selçuklu Mezarlığı"
+                ]
+              },
+              {
+                "name": "Bolu",
+                "museums": [
+                  "Bolu Müzesi"
+                ]
+              },
+              {
+                "name": "Burdur",
+                "museums": [
+                  "Burdur Müzesi",
+                  "Sagalassos Örenyeri"
+                ]
+              },
+                  {
+                "name": "Bursa",
+                "museums": [
+                  "Bursa Arkeoloji Müzesi",
+                  "Bursa Göç Tarihi Müzesi",
+                  "Bursa Kent Müzesi",
+                  "Bursa Ormancılık Müzesi",
+                  "Bursa Tofaş Anadolu Arabaları Müzesi",
+                  "Cumalıkızık Etnografya Müzesi",
+                  "Hünkar Köşkü",
+                  "İznik Ayasofya Müzesi",
+                  "İznik Müzesi",
+                  "Karagöz Müzesi",
+                  "Mudanya Tahir Paşa Konağı Müzesi",
+                  "Panorama 1326 Bursa Fetih Müzesi",
+                  "Uluumay Osmanlı Halk Kıyafetleri ve Takıları Müzesi"
+                ]
+              },
+              {
+                "name": "Çanakkale",
+                "museums": [
+                  "Alexandria Troas Örenyeri",
+                  "Antika Tarım Aletleri ve Traktör Müzesi",
+                  "Assos Örenyeri",
+                  "Bozcaada Yeraltı Tarih Müzesi",
+                  "Çanakkale 1915 Savaş Malzemeleri Müzesi",
+                  "Çanakkale Arkeoloji Müzesi",
+                  "Çanakkale Deniz Müzesi (Çanakkale Askeri Deniz Müzesi ve Parkı)",
+                  "Çanakkale Kent Müzesi ve Arşivi",
+                  "Çanakkale Onsekiz Mart Üniversitesi Piri Reis Deniz Bilimleri Müzesi",
+                  "Çanakkale Onsekiz Mart Üniversitesi Yer Bilimleri ve Doğa Tarihi Müzesi",
+                  "Gelibolu Yarımadası Tarihi Milli Parkı şehitlikleri ve eserleri",
+                  "Troya Müzesi",
+                  "Troya Örenyeri"
+                ]
+              },
+              {
+                "name": "Çankırı",
+                "museums": [
+                  "Çankırı Müzesi"
+                ]
+              },
+              {
+                "name": "Çorum",
+                "museums": [
+                  "Çorum Müzesi (Çorum Arkeoloji ve Etnografya Müzesi)",
+                  "Boğazköy Müzesi",
+                  "Alacahöyük Müzesi ve Örenyeri",
+                  "Boğazköy-Hattuşaş Örenyeri"
+                ]
+              },
+              {
+                "name": "Denizli",
+                "museums": [
+                  "Atatürk ve Etnografya Müzesi",
+                  "Hierapolis (Pamukkale) Antik Havuz",
+                  "Hierapolis (Pamukkale) Arkeoloji Müzesi",
+                  "Hierapolis (Pamukkale) Örenyeri",
+                  "Laodikela Örenyeri"
+                ]
+              },
+              {
+                "name": "Diyarbakır",
+                "museums": [
+                  "Ahmet Arif Edebiyat Müzesi",
+                  "Cahit Sıtkı Tarancı Evi Kültür Müzesi",
+                  "Ziya Gökalp Müzesi"
+                ]
+              },
+              {
+                "name": "Edirne",
+                "museums": [
+                  "Edirne Müzesi",
+                  "Milli Mücadele ve Lozan Müzesi"
+                ]
+              },
+              {
+                "name": "Elazığ",
+                "museums": [
+                  "Elazığ Arkeoloji ve Etnografya Müzesi"
+                ]
+              },
+              {
+                "name": "Erzincan",
+                "museums": [
+                  "Erzincan Müzesi"
+                ]
+              },
+              {
+                "name": "Erzurum",
+                "museums": [
+                  "Yakutiye Medresesi",
+                  "Türk İslam Eserleri ve Etnografya Müzesi"
+                ]
+              },
+              {
+                "name": "Eskişehir",
+                "museums": [
+                  "Ahşap Eserler Müzesi",
+                  "Anadolu Üniversitesi Cumhuriyet Tarihi Müzesi",
+                  "Anadolu Üniversitesi Eğitim Karikatürleri Müzesi",
+                  "Balmumu Heykeller Müzesi",
+                  "Çağdaş Cam Sanatları Müzesi",
+                  "Eskişehir Arkeoloji Müzesi",
+                  "Eskişehir Havacılık Müzesi",
+                  "İnönü Savaşları Karargah Müzesi",
+                  "Midas Yazılıkaya Örenyeri",
+                  "Odunpazarı Modern Müze",
+                  "Pessinus Müzesi (Pessinus Örenyeri ve Açık Hava Müzesi)",
+                  "Tayfun Talipoğlu Daktilo Müzesi"
+                ]
+              },
+              {
+                "name": "Gaziantep",
+                "museums": [
+                  "25 Aralık Gaziantep Savunması Kahramanlık Panoraması ve Müzesi",
+                  "Atatürk Anı Müzesi",
+                  "Emine Göğüş Mutfak Müzesi",
+                  "Gaziantep Arkeoloji Müzesi",
+                  "Gaziantep Kalesi",
+                  "Gaziantep Savunması ve Kahramanik Panoraması Müzesi",
+                  "Gaziantep Zeugma Örenyeri",
+                  "Hasan Süzer Etnografya Müzesi",
+                  "Medusa Cam Müzesi",
+                  "Ömer Ersoy Kültür Merkezi",
+                  "Şahinbey Savaş Müzesi"
+                ]
+              },
+              {
+                "name": "Giresun",
+                "museums": [
+                  "Giresun Müzesi",
+                  "Meryemana Manastırı",
+                  "Şebinkarahisar Atatürk Evi Müzesi"
+                ]
+              },
+              {
+                "name": "Hatay",
+                "museums": [
+                  "Hatay Arkeoloji Müzesi",
+                  "İskenderun Deniz Müzesi",
+                  "Aziz Simon Manastırı"
+                ]
+              },
+              {
+                "name": "Isparta",
+                "museums": [
+                  "Isparta Müzesi",
+                  "Yalvaç Müzesi",
+                  "Antiocheia Örenyeri"
+                ]
+              },
+            {
+            "name": "İstanbul",
+            "museums": [
+                "Adalar Müzesi",
+                "Hüseyin Rahmi Gürpınar Müzesi",
+                "İnönü Evi Müzesi",
+                "Sait Faik Abasıyanık Müzesi",
+                "Haluk Perk Müzesi",
+                "Bakırköy Ruh ve Sinir Hastalıkları Hastanesi Müzesi",
+                "Florya Atatürk Deniz Köşkü",
+                "İstanbul Havacılık Müzesi",
+                "Kamera Müzesi",
+                "İstanbul Su Müzesi",
+                "Aşiyan Müzesi",
+                "Beşiktaş Müzesi",
+                "Beşiktaş Kedi Müzesi",
+                "Dolmabahçe Saat Müzesi",
+                "Dolmabahçe Sarayı",
+                "Ihlamur Kasrı",
+                "İstanbul Deniz Müzesi",
+                "İstanbul Resim ve Heykel Müzesi",
+                "Kont Szechenyi İtfaiye Müzesi",
+                "Millî Saraylar Resim Müzesi",
+                "Saray Koleksiyonları Müzesi",
+                "Şehir Müzesi",
+                "Türkiye Yazarlar Sendikası Edebiyat Müzesi",
+                "Yıldız Porselen Fabrikası",
+                "Yıldız Sarayı",
+                "Anadolu Hisarı",
+                "Beykoz Cam ve Billur Müzesi",
+                "Beykoz Kasrı",
+                "Çağlar Boyu Aydınlatma ve Isıtma Koleksiyonları Müzesi",
+                "Denizcilik ve Su Ürünleri Müzesi",
+                "Küçüksu Kasrı",
+                "Mehmet Akif Ersoy Şiir Müzesi",
+                "Zofia Rizi Anı Evi",
+                "500. Yıl Vakfı Türk Musevileri Müzesi",
+                "Adam Mickiewicz Müzesi",
+                "Aynalıkavak Kasrı",
+                "Ayşe Ercüment Kalmık Müzesi",
+                "Cumhuriyet Müzesi",
+                "Doğançay Müzesi",
+                "Galata Mevlevihanesi",
+                "Galatasaray Müzesi",
+                "Galerist",
+                "İstanbul Modern",
+                "İstanbul Modern Sanat Müzesi",
+                "İstanbul Uluslararası UFO Müzesi",
+                "İTÜ Bilim Merkezi",
+                "Karikatür ve Mizah Müzesi",
+                "Madame Tussauds İstanbul",
+                "Masumiyet Müzesi",
+                "Miniatürk",
+                "Orhan Kemal Müzesi",
+                "Osmanlı Bankası Müzesi",
+                "Pera Müzesi",
+                "Rahmi M. Koç Müzesi",
+                "SALTTÜRVAK Sinema ve Tiyatro Müzesi",
+                "Yapı Kredi Yayınları ve Müzesi",
+                "Dünya Kostümleri Müzesi",
+                "Çatalca Mübadele Müzesi",
+                "Santralistanbul",
+                "Eyüpsultan Türbe Hamamı Müzesi",
+                "Piyer Loti Müzesi",
+                "Ahmet Hamdi Tanpınar Edebiyat Müze Kütüphanesi",
+                "Aya İrini",
+                "Çinili Köşk",
+                "Büyük Saray Mozaikleri Müzesi",
+                "Cerrahpaşa Tıp Fakültesi Tıp Tarihi Müzesi",
+                "Cumhuriyet Eğitim Müzesi",
+                "Gazanfer Ağa Medresesi",
+                "Halı Müzesi",
+                "Hilye-i Şerife ve Tesbih Müzesi",
+                "İmrahor Anıtı",
+                "İslam Bilim ve Teknoloji Tarihi Müzesi",
+                "İstanbul Arkeoloji Müzeleri",
+                "İstanbul Fotoğraf Müzesi",
+                "İstanbul Üniversitesi Beyazıt Kulesi Anıt Müzesi",
+                "İstanbul Üniversitesi Jeoloji Müzesi",
+                "İstanbul Üniversitesi Rıdvan Çelikel Arkeoloji Müzesi",
+                "İstanbul Üniversitesi Zooloji Müzesi",
+                "PTT İstanbul Müzesi",
+                "Rezzan Has Müzesi",
+                "Sağlık Müzesi",
+                "TCDD Sirkeci Garı Demiryolu Müzesi",
+                "Tekfur Sarayı",
+                "Topkapı Sarayı",
+                "Türk İnşaat ve Sanat Eserleri Müzesi",
+                "Türk Vakıf Hat Sanatları Müzesi",
+                "Türk ve İslam Eserleri Müzesi",
+                "Türkiye Gazeteciler Cemiyeti Basın Müzesi",
+                "Türkiye İş Bankası Müzesi",
+                "Yahya Kemal Müzesi",
+                "Yedikule Zindanları",
+                "Yerebatan Sarnıcı",
+                "Fenerbahçe Müzesi",
+                "İstanbul Oyuncak Müzesi",
+                "Kâzım Karabekir Paşa Müzesi",
+                "Müze Gazhane",
+                "Hisart Canlı Tarih ve Diaroma Müzesi",
+                "Mehmet Arsay Otomobil Müzesi",
+                "Doğa ve Bilim Müzesi",
+                "Cendere Sanat Müzesi",
+                "İstanbul Lale Vakfı Müzesi",
+                "Maslak Kasrı",
+                "Rumeli Hisarı",
+                "Sadberk Hanım Müzesi",
+                "Sakıp Sabancı Müzesi",
+                "Ural Ataman Klasik Otomobil Müzesi",
+                "Ara Güler Müzesi",
+                "Askerî Müze",
+                "Atatürk Müzesi",
+                "Beylerbeyi Sarayı",
+                "Florence Nightingale Müzesi",
+                "İstanbul Grafik Sanatları Müzesi",
+                "Kandilli Deprem Müzesi",
+                "Sabri Artam Vakfı Klasik Otomobil Müzesi",
+                "Panorama 1453 Tarih Müzesi",
+                "Türk Dünyası Kültür Mahallesi"
+             ]
+            
+          },
+          {
+            "name": "İzmir",
+            "museums": [
+              "Agora Örenyeri",
+              "Ahmet Piriştina Kent Arşivi ve Müzesi",
+              "Ayasuluk Örenyeri",
+              "Bergama Akropol Örenyeri",
+              "Bergama Müzesi",
+              "Birgi Çakırağa Konağı",
+              "Çeşme Müzesi",
+              "Dario Moreno sokağı ve Avrasya Ani Evi",
+              "Efes Müzesi",
+              "Efes Örenyeri",
+              "Ege Üniversitesi Etnografya Müzesi",
+              "İnciraltı Deniz Müzesi",
+              "İzmir Arkeoloji Müzesi",
+              "İzmir Atatürk Evi Müzesi",
+              "İzmir Büyükşehir Belediyesi Ahmet Piriştina Kent Arşivi ve Müzesi",
+              "İzmir Etnografya Müzesi","İzmir Kadın Müzesi",
+              "İzmir Resim Heykel Müzesi ve Galerisi",
+              "Kay-E. Özgörkey Müzesi",
+              "Klaros Örenyeri",
+              "Kazomenai Antik Kent",
+              "Konak Bel. Ümran Baradan Oyun ve Oyuncak Müzesi",
+              "Latife Hanım Köşkü Anı Evi Müzesi",
+              "Metropolis Örenyeri",
+              "Ödemiş Müzesi",
+              "Pitane",
+              "Aziz Yuhanna Örenyeri",
+              "Tarih Sanat Müzesi",
+              "TCDD 3. Bölge Müze ve Sanat Galerisi",
+              "TCDD Selçuk Çamlık Açık Hava Buharlı Lokomotif Müzesi",
+              "Teos Örenyeri",
+              "Ticaret Odası Müzesi",
+              "Tire Kent Müzesi"
+            ]
+          },
+          {
+            "name": "Kars",
+            "museums": [
+              "Kars Müzesi",
+              "Ani Örenyeri",
+              "Boğatepe Peynir Müzesi"
+            ]
+          },
+          {
+            "name": "Kastamonu",
+            "museums": [
+              "Kastamonu Müzesi"
+            ]
+          },
+          {
+            "name": "Kayseri",
+            "museums": [
+              "Atatürk Evi Müzesi",
+              "Kayseri Arkeoloji Müzesi",
+              "Güpgüpoğlu Konağı Etnografya Müzesi",
+              "Kültepe Örenyeri"
+            ]
+          },
+          {
+            "name": "Kırklareli",
+            "museums": [
+              "Kırklareli Müzesi"
+            ]
+          },
+          {
+            "name": "Kırşehir",
+            "museums": [
+              "Kırşehir Müzesi",
+              "Kaman Kalehöyük Arkeoloji Müzesi",
+              "Mucur Yeraltı Şehri"
+            ]
+          },
+          {
+            "name": "Kocaeli",
+            "museums": [
+              "Kocaeli Arkeoloji ve Etnografya Müzesi",
+              "Kası Hümayun",
+              "Osman Hamdi Bey Müzesi",
+              "TCG Gayret (D-352)"
+            ]
+          },
+          {
+            "name": "Konya",
+            "museums": [
+              "İnce Minare",
+              "Çatalhöyük Örenyeri",
+              "Konya Etnografya Müzesi",
+              "Konya Ereğli Müzesi",
+              "Konya Arkeoloji Müzesi",
+              "Konya Atatürk Evi Müzesi",
+              "Karatay Medresesi",
+              "Konya A. R. İzzet Koyunoğlu Şehir Müzesi",
+              "Mevlâna Müzesi",
+              "Sirçalı Medrese"
+            ]
+          },
+          {
+            "name": "Kütahya",
+            "museums": [
+              "Aizonai Örenyeri",
+              "Altıntaş Açıkhava Müzesi",
+              "Dumlupınar Üniversitesi Müzesi",
+              "Kossuth Evi Müzesi",
+              "Kütahya Müzesi",
+              "Porselen Müzesi",
+              "Sadık Atakan Özel Çini Müzesi"
+            ]
+          },
+          {
+            "name": "Malatya",
+            "museums": [
+              "Malatya Müzesi",
+              "Aslantepe Örenyeri",
+              "Somuncu Baba ve Hulusi Efendi Müzesi"
+            ]
+          },
+          {
+            "name": "Manisa",
+            "museums": [
+              "Aigai Örenyeri",
+              "Akhisar Müzesi",
+              "Manisa Arkeoloji Müzesi",
+              "Manisa Mevlevihanesi",
+              "Manisa Müzesi",
+              "Sardes Örenyeri ve Artemis Tapınağı",
+              "Thyatira Örenyeri"
+            ]
+          },
+          {
+            "name": "Kahramanmaraş",
+            "museums": [
+              "Kahramanmaraş Arkeoloji Müzesi",
+              "Kahramanmaraş Kent Kurtuluş Müzesi",
+              "Germanicia Mozaikleri Alanı"
+            ]
+          },
+          {
+            "name": "Mardin",
+            "museums": [
+              "Mardin Müzesi",
+              "Yaşayan Müze Mardin"
+            ]
+          },
+          {
+            "name": "Mersin",
+            "museums": [
+              "Anamorium Örenyeri",
+              "Anamur Müzesi",
+              "Gözne Kalesi",
+              "İz Bırakanlar Müzesi",
+              "Kanlı Divane Örenyeri",
+              "Mamure Kalesi",
+              "Mersin Arkeoloji Müzesi",
+              "Mersin Atatürk Evi Müzesi",
+              "Mersin Deniz Müzesi",
+              "Mersin İl Eğitim Tarihi Müzesi",
+              "Mersin Kent Müzesi",
+              "Mersin Kızkalesi",
+              "Mersin Su Müzesi",
+              "Mersin Tarsus Müzesi",
+              "Mustafa Erim Mersin Kent Tarihi Müzesi",
+              "Narlıkuyu Mozaik Müzesi - Silifke",
+              "Nusret Mayın Gemisi Kültür Parkı",
+              "Silifke Alahan Manastırı",
+              "Silifke Astım Mağarası",
+              "Silifke Atatürk Evi Müzesi",
+              "Silifke Ayateda Örenyeri",
+              "Silifke Cennet Cehennem Örenyeri",
+              "Silifke Müzesi",
+              "Silifke Uzuncaburç Örenyeri",
+              "Aziz Pavlus Kilisesi ve Aziz Pavius Su Kuyusu",
+              "Taşucu Arslan Eyce Amfora Müzesi",
+              "Taşucu Atatürk Evi"
+            ]
+          },
+          {
+            "name": "Muğla",
+            "museums": [
+              "Bodrum Antik Tiyatrosu",
+              "Bodrum Kalesi (Sualtı Arkeoloji Müzesi)",
+              "Bodrum Mausoleum Anıt Müzesi",
+              "Bodrum Zeki Müren Sanat Müzesi",
+              "Datça Knidos Örenyeri",
+              "Didim Örenyeri",
+              "Fethiye Amintas Kaya Mezarları",
+              "Fethiye Gemile Adası",
+              "Fethiye Kadyanda Antik Kenti",
+              "Fethiye Kaunos Örenyeri ve Kaya Mezarları",
+              "Fethiye Letoon Örenyeri",
+              "Fethiye Müzesi",
+              "Fethiye Pinara Örenyeri",
+              "Fethiye Tlos Örenyeri",
+              "Lagina Örenyeri",
+              "Marmaris Halıcı Ahmet Urkay Müzesi",
+              "Milas Beçin Kalesi ve Örenyeri",
+              "Milas Damlıboğaz Örenyeri",
+              "Milas Euromos Örenyeri",
+              "Milas Labranda Örenyeri",
+              "Milas Müzesi",
+              "Milas Uzunyuva Anıt Mezar ve Müze Kompleksi",
+              "Muğla Müzesi",
+              "Sedir Adası Örenyeri",
+              "Stratonikeia Örenyeri"
+            ]
+          },
+          {
+            "name": "Nevşehir",
+            "museums": [
+              "Derinkuyu Yeraltı Şehri",
+              "Gülşehir Aziz Yuhanna Kilisesi (Karşı Kilise)",
+              "Güray Müze",
+              "Hacı Bektaş Veli Müzesi",
+              "Karanlık Kilise (Göreme)",
+              "Nevşehir Müzesi",
+              "Ortahisar Etnografya Müzesi",
+              "Zelve-Paşabağlar Örenyeri"
+            ]
+          },
+          {
+            "name": "Niğde",
+            "museums": [
+              "Gümüşler Örenyeri"
+            ]
+          },
+          {
+            "name": "Ordu",
+            "museums": [
+              "Ordu Paşaoğlu Konağı Etnografya Müzesi"
+            ]
+          },
+          {
+            "name": "Rize",
+            "museums": [
+              "Rize Müzesi",
+              "Rize Atatürk Evi Müzesi",
+              "Rize Eğitim Tarihi Müzesi",
+              "Çayeli Doğal Yaşam Müzesi",
+              "Çaykur Çay Müzesi",
+              "Recep Tayyip Erdoğan Üniversitesi Tatlı Su Balığı Müzesi"
+            ]
+          },
+          {
+            "name": "Sakarya",
+            "museums": [
+              "Sakarya Müzesi",
+              "Ali Fuat Paşa Kuvayı Milliye Müzesi (Geyve)",
+              "Deprem Kültür Müzesi"
+            ]
+          },
+          {
+            "name": "Samsun",
+            "museums": [
+              "1071'den 15 Temmuz'a Destanlar Müzesi",
+              "Alaçam Mübadele Müzesi",
+              "Ambarköy Açık Hava Müzesi",
+              "Bafra Arkeoloji ve Etnografya Müzesi",
+              "Bafra Tütün Müzesi",
+              "Bandırma Vapuru ve Milli Mücadele Müzesi",
+              "Canik Oyuncak Müzesi",
+              "Cerrahlar Aletleri ve Sağlık Müzesi",
+              "Gazi Müzesi",
+              "Havza Atatürk Evi",
+              "Kuva-i Milliye Müzesi",
+              "Panorama 1919 Müzesi",
+              "Samsun Arkeoloji ve Etnografya Müzesi",
+              "Samsun Kent Müzesi",
+              "Tekkeköy Atatürk Evi",
+              "Tekkeköy Mağaraları Arkeoloji Vadisi Müze Evi",
+              "Yaşar Doğu Anı Evi Müzesi"
+            ]
+          },
+          {
+            "name": "Sinop",
+            "museums": [
+              "Sinop Cezaevi",
+              "Sinop Arkeoloji Müzesi"
+            ]
+          },
+          {
+            "name": "Sivas",
+            "museums": [
+              "Aşık Veysel Müzesi",
+              "Sivas Arkeoloji Müzesi"
+            ]
+          },
+          {
+            "name": "Tekirdağ",
+            "museums": [
+              "Namık Kemal Evi Müzesi",
+              "Kutman Şarap Müzesi"
+            ]
+          },
+          {
+            "name": "Tokat",
+            "museums": [
+              "Tokat Müzesi",
+              "Sebastopolis Örenyeri",
+              "Tokat Atatürk Evi ve Etnografya Müzesi",
+              "Gazi Osman Paşa Müzesi",
+              "Su ve Temizlik Müzesi"
+            ]
+          },
+          {
+            "name": "Trabzon",
+            "museums": [
+              "Cevdet Sunay Müzesi",
+              "Küçük Ayvasıl Azize Anna Kilisesi",
+              "Sümela Manastırı",
+              "Trabzon Ayasofya Müzesi",
+              "Trabzon Müzesi (Kostaki Konağı)",
+              "Trabzonspor Şamil Ekinci Müzesi",
+              "Uzungöl Dursun Ali İnan Müzesi",
+              "Trabzon Basın Tarihi Müzesi"
+            ]
+          },
+          {
+            "name": "Tunceli",
+            "museums": [
+              "Tunceli Müzesi"
+            ]
+          },
+          {
+            "name": "Şanlıurfa",
+            "museums": [
+              "Göbeklitepe Örenyeri",
+              "Harran Örenyeri",
+              "Kurtuluş Müzesi",
+              "Şanlıurfa Arkeoloji ve Mozaik Müzesi",
+              "Şanlıurfa Kalesi"
+            ]
+          },
+          {
+            "name": "Uşak",
+            "museums": [
+              "Uşak Müzesi"
+            ]
+          },
+          {
+            "name": "Van",
+            "museums": [
+              "Van Müzesi",
+              "Çavuştepe Kalesi",
+              "Hoşap Kalesi",
+              "Van Kalesi"
+            ]
+          },
+          {
+            "name": "Yozgat",
+            "museums": [
+              "Yozgat Etnografya Müzesi"
+            ]
+          },
+          {
+            "name": "Zonguldak",
+            "museums": [
+              "Karadeniz Ereğli Müzesi",
+              "Cehennemağzı Mağaraları",
+              "Maden Müzesi"
+            ]
+          },
+          {
+            "name": "Aksaray",
+            "museums": [
+              "Aksaray Müzesi",
+              "Ihlara Vadisi Örenyeri - Ana Kapı"
+            ]
+          },
+          {
+            "name": "Bayburt",
+            "museums": [
+              "Baksı Müzesi",
+              "Kenan Yavuz Etnografya Müzesi"
+            ]
+          },
+          {
+            "name": "Karaman",
+            "museums": [
+              "Karaman Müzesi"
+            ]
+          },
+          {
+            "name": "Kırıkkale",
+            "museums": [
+              "MKE Silahsan Özel Müzesi"
+            ]
+          },
+          {
+            "name": "Batman",
+            "museums": [
+              "Batman Müzesi"
+            ]
+          },
+          {
+            "name": "Bartın",
+            "museums": [
+              "Amasra Müzesi"
+            ]
+          },
+          {
+            "name": "Iğdır",
+            "museums": [
+              "Iğdır Anıt Müzesi"
+            ]
+          },
+          {
+            "name": "Yalova",
+            "museums": [
+              "İbrahim Müteferrika Kağıt Müzesi",
+              "Yalova Açık Hava Müzesi",
+              "Yalova Kent Müzesi"
+            ]
+          },
+          {
+            "name": "Kilis",
+            "museums": [
+              "Kilis Müzesi (Tarihi Sabunhane Binası)"
+            ]
+          },
+          {
+            "name": "Osmaniye",
+            "museums": [
+              "Karatepe Aslantaş Müzesi ve Örenyeri",
+              "Kastabala Örenyeri",
+              "Osmaniye Kent Müzesi"
+            ]
+          },
+          {
+            "name": "Düzce",
+            "museums": [
+              "Konuralp Müzesi"
+            ]
+          }
+          
+    ]
+}

@@ -1,0 +1,477 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s ease; /* Yumuşak geçiş için */
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--body-font);
+    background-color: var(--bg-color);
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+:root {
+    --body-font: "Satoshi", sans-serif;
+    --head-font: "DM Serif Display", serif;
+    --bg-color: #FBFBF3;
+    --font-color: #231F20;
+}
+
+h1 {
+    font-family: var(--head-font);
+    font-size: 4rem;
+    font-weight: 300;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 120%;
+    letter-spacing: -1px;
+}
+
+
+/* HEADER */
+.header {
+    margin: 8rem;
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+.nav {
+    padding: 0.75rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.logo img {
+    width: auto;
+    height: 60px;
+}
+
+.menu {
+    display: block;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.main_btn {
+    background-color: var(--font-color);
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+
+
+/* Üst kısım için stil ayarları */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+
+
+
+img {
+    width: 70%;
+    height: 80vh;
+    border-radius: 10px; /* Resim kenar yuvarlama */
+    margin-bottom: 20px; /* Resim ile içerik arası boşluk */
+    object-fit: cover;
+    object-position: center;
+}
+
+.container p {
+    font-size: 1.2em; /* Paragraf metni boyutu */
+    line-height: 1.6; /* Satır yüksekliği */
+    color: #666; /* Metin rengi */
+    padding: 0 20px; /* Sağ ve sol kenar boşlukları */
+    width: 60%;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.museum-image {
+    max-width: 100%;
+    border: 5px solid #f39c12; /* Çerçeve rengi */
+    border-radius: 8px; /* Kenarları yuvarlat */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Gölge efekti */
+}
+
+
+
+
+
+
+/* FOOTER */
+.footer {
+    margin: 8rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    gap: 50px;
+    margin: 0 auto;
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    padding: 5rem;
+    border-radius: 10px;
+    background-color: #fdfdf8;
+
+}
+
+.footer-left {
+    flex: 1;
+    min-width: 250px;
+    margin-right: 20px;
+}
+
+.footer-logo {
+    width: auto;
+    height: 100px;
+    margin-bottom: 16px;
+}
+
+.footer-description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-center {
+    flex: 2;
+    text-align: center;
+    min-width: 300px;
+}
+
+.footer-center p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex: 2;
+    gap: 100px;
+}
+
+.footer_menu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.footer-column h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: #000;
+}
+
+.map-container {
+    width: 70%;
+    height: 400px;
+    margin: 2rem auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.map-container:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .map-container {
+        width: 90%;
+        height: 300px;
+    }
+}
+
+.map-error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.map-error-icon {
+    width: 48px;
+    height: 48px;
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.map-error p {
+    color: #6c757d;
+    font-size: 1rem;
+    margin: 0;
+    width: auto !important;
+    padding: 0 !important;
+}
+
+.comments-section {
+    width: 70%;
+    margin: 4rem auto;
+    font-family: var(--body-font);
+}
+
+.comments-section h2 {
+    font-family: var(--head-font);
+    font-size: 2rem;
+    color: var(--font-color);
+    margin-bottom: 2rem;
+}
+
+.comment-form {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.comment-form h3 {
+    font-family: var(--head-font);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--font-color);
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #EDEDE4;
+    border-radius: 8px;
+    font-family: var(--body-font);
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--font-color);
+}
+
+.submit-button {
+    background-color: var(--font-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    font-family: var(--body-font);
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.submit-button:hover {
+    opacity: 0.9;
+}
+
+.comments-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.comment-card {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.comment-card:hover {
+    transform: translateY(-2px);
+}
+
+.comment-header {
+    margin-bottom: 1rem;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #EDEDE4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-avatar svg {
+    width: 32px;
+    height: 32px;
+    color: #666;
+}
+
+.user-details h3 {
+    font-size: 1.1rem;
+    color: var(--font-color);
+    margin: 0;
+}
+
+.comment-date {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.comment-content {
+    color: #444;
+    line-height: 1.6;
+}
+
+.comment-actions {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #EDEDE4;
+    display: flex;
+    gap: 1rem;
+}
+
+.action-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background: none;
+    color: #666;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.action-button:hover {
+    color: var(--font-color);
+}
+
+.action-button svg {
+    fill: currentColor;
+}
+
+@media (max-width: 768px) {
+    .comments-section {
+        width: 90%;
+    }
+    
+    .comment-card {
+        padding: 1rem;
+    }
+}

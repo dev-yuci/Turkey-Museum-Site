@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sepetim - Türkiye Miras Müzeleri</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/payment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="back-link">
+                    <i class="fas fa-arrow-left"></i> Alışverişe Devam Et
+                </a>
+                <h1 class="cart-title">SEPETİM</h1>
+                <div class="nav-spacer"></div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="cart-container">
+            <!-- Sol Taraf - Sepet -->
+            <div class="cart-section">
+                <div class="cart-items" id="cart-items">
+                    <!-- Sepet ürünleri buraya gelecek -->
+                </div>
+            </div>
+
+            <!-- Sağ Taraf - Sipariş Formu -->
+            <div class="order-section">
+                <h2 class="section-title">Sipariş Bilgileri</h2>
+                <form id="order-form" class="order-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fullName">Ad Soyad*</label>
+                            <input type="text" id="fullName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefon Numarası*</label>
+                            <input type="tel" id="phone" pattern="[0-9]{10}" required placeholder="5XX XXX XX XX">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-posta*</label>
+                        <input type="email" id="email" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="city">İl*</label>
+                            <select id="city" required>
+                                <option value="">İl Seçiniz</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="district">İlçe*</label>
+                            <select id="district" required disabled>
+                                <option value="">İlçe Seçiniz</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Açık Adres*</label>
+                        <textarea id="address" required rows="3" placeholder="Mahalle, Sokak, Apartman No, Daire No"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Kargo Firması*</label>
+                        <div class="cargo-options">
+                            <div class="cargo-option">
+                                <input type="radio" id="yurtici" name="cargo" value="yurtici" required>
+                                <label for="yurtici">
+                                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNMzM2IDQ4aDMzNjQ4IDQ4IDAgMCAwIDQ4LTQ4djgwYTQ4IDQ4IDAgMCAwIDQ4IDQ4eiIgZmlsbD0iIzAwNzJjNiIvPjwvc3ZnPg==" alt="Yurtiçi Kargo">
+                                    <span>Yurtiçi Kargo</span>
+                                </label>
+                            </div>
+                            <div class="cargo-option">
+                                <input type="radio" id="aras" name="cargo" value="aras">
+                                <label for="aras">
+                                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNNDgwIDI1NmE2NCA2NCAwIDAgMS02NCA2NEg5NmE2NCA2NCAwIDAgMS0wLTEyOGgzMjBhNjQgNjQgMCAwIDEgNjQgNjR6IiBmaWxsPSIjZmY2YjZiIi8+PC9zdmc+" alt="Aras Kargo">
+                                    <span>Aras Kargo</span>
+                                </label>
+                            </div>
+                            <div class="cargo-option">
+                                <input type="radio" id="mng" name="cargo" value="mng">
+                                <label for="mng">
+                                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNNDgwIDI1NmE2NCA2NCAwIDAgMS02NCA2NEg5NmE2NCA2NCAwIDAgMS0wLTEyOGgzMjBhNjQgNjQgMCAwIDEgNjQgNjR6IiBmaWxsPSIjZmZjMTA3Ii8+PC9zdmc+" alt="MNG Kargo">
+                                    <span>MNG Kargo</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="kvkk-checkbox">
+                            <input type="checkbox" id="kvkk" required>
+                            <label for="kvkk">
+                                Kişisel verilerimin işlenmesine ilişkin <a href="#" class="kvkk-link">Aydınlatma Metni</a>'ni okudum ve kabul ediyorum.*
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="order-summary">
+                        <div class="summary-details">
+                            <div class="summary-row">
+                                <span>Ara Toplam:</span>
+                                <span id="subtotal">0.00 ₺</span>
+                            </div>
+                            <div class="summary-row">
+                                <span>Kargo Ücreti:</span>
+                                <span id="shipping-cost">29.90 ₺</span>
+                            </div>
+                            <div class="summary-row total">
+                                <span>Toplam:</span>
+                                <span id="total-amount">0.00 ₺</span>
+                            </div>
+                        </div>
+                        <button type="submit" class="order-button">
+                            <i class="fas fa-lock"></i> Siparişi Tamamla
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Ödeme Modal -->
+    <div id="paymentModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Ödeme Bilgileri</h2>
+            <form id="paymentForm" class="payment-form">
+                <div class="form-group">
+                    <label for="cardName">Kart Üzerindeki İsim*</label>
+                    <input type="text" id="cardName" required>
+                </div>
+                <div class="form-group">
+                    <label for="cardNumber">Kart Numarası*</label>
+                    <input type="text" id="cardNumber" maxlength="19" placeholder="1234 5678 9012 3456" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="expiryDate">Son Kullanma Tarihi*</label>
+                        <input type="text" id="expiryDate" maxlength="5" placeholder="AA/YY" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cvv">CVV*</label>
+                        <input type="text" id="cvv" maxlength="3" required>
+                    </div>
+                </div>
+                <button type="submit" class="payment-button">
+                    <i class="fas fa-lock"></i> Ödemeyi Tamamla
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Başarılı Sipariş Modal -->
+    <div id="successModal" class="modal">
+        <div class="modal-content success-content">
+            <i class="fas fa-check-circle success-icon"></i>
+            <h2>Siparişiniz Alındı!</h2>
+            <p>Siparişiniz başarıyla oluşturuldu. Teşekkür ederiz.</p>
+            <button onclick="window.location.href='index.html'" class="success-button">
+                Alışverişe Devam Et
+            </button>
+        </div>
+    </div>
+
+    <script src="js/payment.js"></script>
+</body>
+</html> 

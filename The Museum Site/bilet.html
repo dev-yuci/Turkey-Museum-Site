@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilet Al - Türkiye Miras Müzeleri</title>
+    <link rel="stylesheet" href="bilet.css">
+</head>
+<body>
+    <header id="header" class="header">
+        <nav id="nav" class="nav">
+            <div id="logo" class="logo"><a href=""><img src="img/Logo.svg" alt=""></a> 
+            </div>
+            <div id="menu" class="menu">
+                <ul>
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="index.html#about">Hakkında</a></li>
+                    <li><a href="explore.html">Müzeler</a></li>
+                    <li><a href="index.html#explore">Keşfet</a></li>
+                    <li><a href="bilet.html" class="btn main_btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M480-280q17 0 28.5-11.5T520-320q0-17-11.5-28.5T480-360q-17 0-28.5 11.5T440-320q0 17 11.5 28.5T480-280Zm0-160q17 0 28.5-11.5T520-480q0-17-11.5-28.5T480-520q-17 0-28.5 11.5T440-480q0 17 11.5 28.5T480-440Zm0-160q17 0 28.5-11.5T520-640q0-17-11.5-28.5T480-680q-17 0-28.5 11.5T440-640q0 17 11.5 28.5T480-600Zm320 440H160q-33 0-56.5-23.5T80-240v-160q33 0 56.5-23.5T160-480q0-33-23.5-56.5T80-560v-160q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v160q-33 0-56.5 23.5T800-480q0 33 23.5 56.5T880-400v160q0 33-23.5 56.5T800-160Zm0-80v-102q-37-22-58.5-58.5T720-480q0-43 21.5-79.5T800-618v-102H160v102q37 22 58.5 58.5T240-480q0 43-21.5 79.5T160-342v102h640ZM480-480Z"/></svg>Bilet Al</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="ticket-main">
+        <div class="search-section">
+            <h1>Müze Bileti Al</h1>
+            <div class="search-container">
+                <div class="search-box">
+                    <select id="citySelect" class="search-select">
+                        <option value="">Şehir Seçin</option>
+                    </select>
+                    <select id="museumSelect" class="search-select" disabled>
+                        <option value="">Müze Seçin</option>
+                    </select>
+                    <input type="date" id="visitDate" min="">
+                    <select id="visitTime" disabled>
+                        <option value="">Ziyaret Saati Seçin</option>
+                        <option value="10:00">10:00</option>
+                        <option value="11:00">11:00</option>
+                        <option value="12:00">12:00</option>
+                        <option value="13:00">13:00</option>
+                        <option value="14:00">14:00</option>
+                        <option value="15:00">15:00</option>
+                        <option value="16:00">16:00</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="ticket-preview">
+            <div class="e-ticket">
+                <div class="ticket-left">
+                    <div class="ticket-header">
+                        <img src="img/logo.svg" alt="Logo" class="ticket-logo">
+                        <h2>E-BİLET</h2>
+                    </div>
+                    
+                    <div class="ticket-content">
+                        <div class="ticket-main-info">
+                            <span id="ticketCity" class="city-name">İstanbul</span>
+                            <h3 id="ticketMuseum" class="museum-name">Topkapı Sarayı Müzesi</h3>
+                        </div>
+
+                        <div class="ticket-details">
+                            <div class="detail-item">
+                                <span id="ticketDate" class="detail-value">24 Mart 2024</span>
+                                <span class="detail-label">Ziyaret Tarihi</span>
+                            </div>
+                            <div class="detail-item">
+                                <span id="ticketTime" class="detail-value">14:00</span>
+                                <span class="detail-label">Giriş Saati</span>
+                            </div>
+                            <div class="detail-item">
+                                <span id="ticketPrice" class="detail-value price">₺150,00</span>
+                                <span class="detail-label">Tam Bilet</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ticket-right">
+                    <img id="qrCode" src="img/qr-placeholder.png" alt="QR Kod" class="qr-code">
+                    <span id="ticketId" class="ticket-id">TMM-2024-ABC123</span>
+                    <p class="ticket-note">Tek kullanımlık bilet</p>
+                </div>
+            </div>
+            <button id="buyButton" class="buy-button" disabled>Satın Al</button>
+        </div>
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <img src="img/logo.svg" alt="Türkiye Miras Müzeleri" class="footer-logo">
+                <p class="footer-description">
+                    Geçmişin zengin kültürel mirasını geleceğe taşıyan tarihe ışık tutan bir yolculuk.
+                </p>
+                <div class="social-icons">
+                    <a href="#"><img src="img/instagram.svg" alt="Instagram"></a>
+                    <a href="#"><img src="img/facebook.svg" alt="Facebook"></a>
+                    <a href="#"><img src="img/twitter.svg" alt="Twitter"></a>
+                    <a href="#"><img src="img/youtube.svg" alt="YouTube"></a>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <div class="footer-text">
+                <p>
+                    Bir müze, yalnızca eski eşyaların sergilendiği bir mekân değil; her köşesinde geçmişin soluk aldığı, kültürlerin ve hikayelerin bir araya geldiği yaşayan bir hafızadır.
+                </p>
+            </div>
+
+            <div class="footer_menu">
+                <div class="footer-column">
+                    <h3>ORGANİZASYON</h3>
+                    <ul>
+                        <li><a href="#">İletişime Geçin</a></li>
+                        <li><a href="#">Geribildirimler</a></li>
+                        <li><a href="#">Haberler & Duyurular</a></li>
+                        <li><a href="#">SSS</a></li>
+                        <li><a href="#">Bizimle Çalışın</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>HIZLI MENÜ</h3>
+                    <ul>
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="index.html#about">Hakkında</a></li>
+                        <li><a href="#">Ziyaret & Bilgi Al</a></li>
+                        <li><a href="explore.html">Müzeler</a></li>
+                        <li><a href="index.html#explore">Keşfet</a></li>
+                        <li><a href="#">Bilet Al</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>BİLGİLER</h3>
+                    <ul>
+                        <li><a href="#">Erişebilirlik</a></li>
+                        <li><a href="#">Çerezler & Bildirimler</a></li>
+                        <li><a href="#">Gizlilik & Güvenlik</a></li>
+                        <li><a href="#">Kullanıcı Sözleşmesi</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="bilet.js"></script>
+
+    <div id="paymentModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Ödeme Bilgileri</h2>
+                <span class="close-modal">&times;</span>
+            </div>
+            
+            <form id="paymentForm" class="payment-form">
+                <div class="form-section">
+                    <h3>Kişisel Bilgiler</h3>
+                    <div class="form-group">
+                        <input type="text" id="fullName" placeholder="Ad Soyad" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="E-posta" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="Telefon Numarası" required>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h3>Kart Bilgileri</h3>
+                    <div class="form-group">
+                        <input type="text" id="cardNumber" placeholder="Kart Numarası" maxlength="19" required>
+                    </div>
+                    <div class="card-extra">
+                        <div class="form-group">
+                            <input type="text" id="cardExpiry" placeholder="AA/YY" maxlength="5" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="cardCVV" placeholder="CVV" maxlength="3" required>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="payment-button">Ödemeyi Tamamla</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="successModal" class="modal">
+        <div class="modal-content success-content">
+            <div class="success-icon">
+                <svg viewBox="0 0 24 24" width="100" height="100">
+                    <path fill="none" stroke="currentColor" stroke-width="2" 
+                          d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                    <path fill="none" stroke="currentColor" stroke-width="2" 
+                          d="M22 4L12 14.01l-3-3"/>
+                </svg>
+            </div>
+            <h2>Ödeme Başarılı!</h2>
+            <p>Biletiniz e-posta adresinize gönderilecektir.</p>
+            <button class="success-button">Tamam</button>
+        </div>
+    </div>
+</body>
+</html>

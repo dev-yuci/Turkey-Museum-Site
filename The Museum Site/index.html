@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Türkiye Miras Müzeleri</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header id="header" class="header">
+        <nav id="nav" class="nav">
+            <div id="logo" class="logo"><a href=""><img src="img/Logo.svg" alt=""></a> 
+            </div>
+            <div id="menu" class="menu">
+                <ul>
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="index.html#about">Hakkında</a></li>
+                    <li><a href="explore.html">Müzeler</a></li>
+                    <li><a href="index.html#explore">Keşfet</a></li>
+                    <li><a href="bilet.html">Bilet Al</a> </li>
+                    <li><a href="shop.html">Mağaza</a> </li>
+                </ul>
+            
+            
+            </div>
+
+            <div class="nav-btn">
+                <ul>
+                    <li><a href="uye-ol.html" class="btn">Giriş Yap</a></li>
+                    <li><a href="uye-ol.html" class="btn main_btn black_btn" style="color: white;">Üye Ol</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="index.html#about">Hakkında</a></li>
+                    <li><a href="explore.html">Müzeler</a></li>
+                    <li><a href="index.html#explore">Keşfet</a></li>
+                </ul>
+
+            </div>
+
+            <img class="setting" src="img/menu.svg" alt="">
+            <img class="close" src="img/x.svg" alt="">
+        </nav>
+    </header>
+    
+    <main id="main" class="main">
+        <section class="hero" id="hero">
+            <div class="hero_blog">
+                <div class="hero_text">
+                    <h1>Türkiye'yi Keşfetmeye Hemen Başla</h1>
+                    <p>Türkiyedeki tarihi ve kültürü öğrenmenin en güzel yolu müzeleri ve eserleri keşfetmekten geçiyor.</p>
+                </div> 
+                <div class="search-container">
+                    <div class="search-item">
+                        <div class="icon">
+                            <img src="img/maps-and-location 1.svg" alt="Şehir">
+                        </div>
+                        <div class="content">
+                            <label for="cityDropdown">Şehir</label>
+                            <select id="cityDropdown">
+                                <option disabled selected>Hangi şehire bakınız?</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="divider"></div>
+                    
+                    <div class="search-item">
+                        <div class="icon">
+                            <img src="img/turkey 1.svg" alt="Müzeler">
+                        </div>
+                        <div class="content">
+                            <label for="museumDropdown">Müzeler</label>
+                            <select id="museumDropdown" disabled>
+                                <option disabled selected>Hangi Müzeleri seversiniz?</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="start-button" id="showMuseumsButton" style="pointer-events: none;">Başlayın</a>
+                </div>
+                
+                <div id="resultContainer" style="display:none;">
+                    <h2 id="museumTitle"></h2>
+                    <p id="museumDescription"></p>
+                    <img id="museumImage" style="display:none;" />
+                </div>
+                
+
+            </div>
+            
+            <div class="hero_img"><img src="img/Group 60.svg" alt=""></div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about_text">
+                <h1 class="h1">Hakkımızda</h1>
+                <div class="about_p--flex">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                    <h2>Türkiyede Müzeler ve Müzecilik teknolojiyle beraber genişliyor. Bunun için çalışıyoruz .</h2>
+                </div>
+            </div>
+            <div class="about_img"><img src="img/Group 63.svg" alt=""></div>
+        </section>
+        
+        <section id="text" class="text"><img src="img/Mask group.svg" alt=""></section>
+        
+        <section id="why-us" class="why-us">
+            <div class="why-us_text">
+                <h1>Sizin için En İyi Müze Rehberi</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <div class="why-us_boxes">
+                    <div class="why-us_box">
+                        <p>100+</p>
+                        <p>Müze Bilgisi</p>
+                    </div>
+                    <div class="why-us_box">
+                        <p>50+</p>
+                        <p>Rehber</p>
+                    </div>
+                    <div class="why-us_box">
+                        <p>94%</p>
+                        <p>Mutlu Kullanıcı</p>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="expr_img"><img src="img/section_img.svg" alt=""></div>
+        </section>
+
+        <section id="explore" class="explore">
+            <h1>Keşfet</h1>
+            <div class="explore_cards">
+                <div class="card">
+                    <div class="image-container">
+                        <img src="img/View_in_the_Collection_of_the_Istanbul_Archaeology_Museum.jpg" alt="İstanbul Arkeoloji Müzesi">
+                        <div class="rating">
+                            <span>4.3 ★</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h2>İstanbul Arkeoloji Müzesi</h2>
+                        <p><strong>100TL</strong> / Kişi</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="arrow-button">
+                            →
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img src="img/1280px-DiyarbakırMüzesiValilikKabulMakami.jpg" alt="İstanbul Arkeoloji Müzesi">
+                        <div class="rating">
+                            <span>3.8 ★</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h2>Diyarbakır Arkeoloji Müzesi</h2>
+                        <p><strong>100TL</strong> / Kişi</p>
+                    </div>
+                    
+                    <div class="button-container">
+                        <button class="arrow-button">
+                            →
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img src="img/2021-08-17.jpg" alt="İstanbul Arkeoloji Müzesi">
+                        <div class="rating">
+                            <span>4.3 ★</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h2>Rahmi M. Koç Müzesi, Ankara</h2>
+                        <p><strong>100TL</strong> / Kişi</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="arrow-button">
+                            →
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img src="img/Basilica_Cistern_after_restoration_2022_(11).jpg" alt="İstanbul Arkeoloji Müzesi">
+                        <div class="rating">
+                            <span>4.3 ★</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h2>Yerebatan Sarnıcı, İstanbul</h2>
+                        <p><strong>100TL</strong> / Kişi</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="arrow-button">
+                            →
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img src="img/Çorum_museum_Alaca_Höyük_grave_3228.jpg" alt="İstanbul Arkeoloji Müzesi">
+                        <div class="rating">
+                            <span>4.3 ★</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h2>Çorum Müzesi</h2>
+                        <p><strong>100TL</strong> / Kişi</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="arrow-button">
+                            →
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img src="img/1280px-Göbekli_Tepe,_Urfa.jpg" alt="İstanbul Arkeoloji Müzesi">
+                        <div class="rating">
+                            <span>4.3 ★</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h2>Göbeklitepe, Şanlıurfa</h2>
+                        <p><strong>100TL</strong> / Kişi</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="arrow-button">
+                            →
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img src="img/1280px-Maidens_Tower_2007.jpg" alt="İstanbul Arkeoloji Müzesi">
+                        <div class="rating">
+                            <span>4.3 ★</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h2>Kız Kulesi, İstanbul</h2>
+                        <p><strong>100TL</strong> / Kişi</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="arrow-button">
+                            →
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img src="img/Musicians_Troy_Museum_9994.jpg" alt="İstanbul Arkeoloji Müzesi">
+                        <div class="rating">
+                            <span>4.3 ★</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h2>Troya Müzesi, İzmir</h2>
+                        <p><strong>100TL</strong> / Kişi</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="arrow-button">
+                            →
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img src="img/Altıkulaç_Sarcophagus_hunting_scene_(hunter_detail_with_tiara).jpg" alt="İstanbul Arkeoloji Müzesi">
+                        <div class="rating">
+                            <span>4.3 ★</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h2>Çanakkale Arkeoloji Müzesi</h2>
+                        <p><strong>100TL</strong> / Kişi</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="arrow-button">
+                            →
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img src="img/Things-to-do-at-Galata-Tower.webp" alt="İstanbul Arkeoloji Müzesi">
+                        <div class="rating">
+                            <span>5.0 ★</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h2>Galata Kulesi, İstanbul</h2>
+                        <p><strong>100TL</strong> / Kişi</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="arrow-button">
+                            →
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img src="img/Kurtuluş_Savaşı_Müzesi_(I._Türkiye_Büyük_Millet_Meclisi_Binası),_2023_157.jpg">
+                        <div class="rating">
+                            <span>4.0 ★</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h2>Kurtuluş Savaşı Müzesi, Ankara</h2>
+                        <p><strong>100TL</strong> / Kişi</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="arrow-button">
+                            →
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img src="img/Selimiye_Mosque_(15051985908)_(cropped).jpg">
+                        <div class="rating">
+                            <span>4.6 ★</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h2>Selimiye Camii, Edirne</h2>
+                        <p><strong>Ücretsiz</strong> / Kişi</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="arrow-button">
+                            →
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <a href="explore.html" class="explore_btn">Detaylı Bak<a>
+        </section>
+        
+        <section id="discount" class="discount">
+            <div class="discount-section">
+            <h2>Merak ettiğin ve Beğendiğin müzelerin <br> biletlerini <span class="highlight">70% indirimli</span> al</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            <button class="buy-button">Bilet Al</button>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <img src="img/logo.svg" alt="Türkiye Miras Müzeleri" class="footer-logo">
+                <p class="footer-description">
+                    Geçmişin zengin kültürel mirasını geleceğe taşıyan tarihe ışık tutan bir yolculuk.
+                </p>
+                <div class="social-icons">
+                    <a href="#"><img src="img/instagram.svg" alt="Instagram"></a>
+                    <a href="#"><img src="img/facebook.svg" alt="Facebook"></a>
+                    <a href="#"><img src="img/twitter.svg" alt="Twitter"></a>
+                    <a href="#"><img src="img/youtube.svg" alt="YouTube"></a>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <div class="footer-text">
+                <p>
+                    Bir müze, yalnızca eski eşyaların sergilendiği bir mekân değil; her köşesinde geçmişin soluk aldığı, kültürlerin ve hikayelerin bir araya geldiği yaşayan bir hafızadır.
+                </p>
+            </div>
+
+            <div class="footer_menu">
+                <div class="footer-column">
+                    <h3>ORGANİZASYON</h3>
+                    <ul>
+                        <li><a href="#">İletişime Geçin</a></li>
+                        <li><a href="#">Geribildirimler</a></li>
+                        <li><a href="#">Haberler & Duyurular</a></li>
+                        <li><a href="#">SSS</a></li>
+                        <li><a href="#">Bizimle Çalışın</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>HIZLI MENÜ</h3>
+                    <ul>
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="#about">Hakkında</a></li>
+                        <li><a href="#">Ziyaret & Bilgi Al</a></li>
+                        <li><a href="explore.html">Müzeler</a></li>
+                        <li><a href="#explore">Keşfet</a></li>
+                        <li><a href="#">Bilet Al</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>BİLGİLER</h3>
+                    <ul>
+                        <li><a href="#">Erişebilirlik</a></li>
+                        <li><a href="#">Çerezler & Bildirimler</a></li>
+                        <li><a href="#">Gizlilik & Güvenlik</a></li>
+                        <li><a href="#">Kullanıcı Sözleşmesi</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            
+        </div>
+    </footer>
+    
+    <script src="index.js"></script>
+    
+</body>
+</html>

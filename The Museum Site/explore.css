@@ -1,0 +1,421 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s ease; /* Yumuşak geçiş için */
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--body-font);
+    background-color: var(--bg-color);
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+:root {
+    --body-font: "Satoshi", sans-serif;
+    --head-font: "DM Serif Display", serif;
+    --bg-color: #FBFBF3;
+    --font-color: #231F20;
+}
+
+h1 {
+    font-family: var(--head-font);
+    font-size: 4rem;
+    font-weight: 300;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 120%;
+    letter-spacing: -1px;
+}
+
+
+/* HEADER */
+.header {
+    margin: 8rem;
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+.nav {
+    padding: 0.75rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.logo img {
+    width: auto;
+    height: 60px;
+}
+
+.menu {
+    display: block;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.main_btn {
+    background-color: var(--font-color);
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10rem;
+    margin-top: 3rem;
+}
+
+.hero img {
+    z-index: -100;
+    padding: 1rem;
+}
+
+.hero h1 span {
+    color: #00778D;
+}
+
+
+/* SEARCH BUTTON DESİGN */
+.search-container {
+    width: 1000px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    gap: 50px;
+}
+  
+/* Her bir Arama Elemanı */
+.search-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+  
+.search-item .icon img {
+    width: 24px;
+    height: 24px;
+}
+  
+.search-item .content label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+}
+  
+.search-item select {
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    color: #777;
+    padding: 5px 0;
+    outline: none;
+    cursor: pointer;
+}
+  
+  /* Ayırıcı Çizgi */
+.divider {
+    height: 40px;
+    width: 1px;
+    background-color: #ccc;
+}
+
+  /* Başlayın Butonu */
+.start-button {
+    background-color: #242424;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.start-button:hover {
+    background-color: #333;
+}
+
+
+
+
+/* POPULAR PLACES */
+.places {
+    margin: 12rem;
+}
+
+/* Ana Section */
+.places-section {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+  
+  .place_card {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+
+  }
+
+  .place_card:hover {
+    filter: brightness(90%); /* Karartma efekti */
+    transition: 0.3s ease; /* Yumuşak geçiş için */
+}
+  
+  .place_card img {
+    width: 420px;
+    height: 550px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+  }
+  
+  .card-content h3 {
+    font-size: 20px;
+    margin: 1rem;
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+  
+  .card-content p {
+    margin: 1rem;
+    margin-top: 0;
+    font-size: 14px;
+    opacity: 0.9;
+  }
+  
+
+
+
+/* Section Ana Yapı */
+.museums-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.museum_blog {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 100px;
+    width: 80%;
+    background-color: #EDEDE4;
+    border-radius: 20px;
+    padding:30px 50px;
+}
+
+.section_bottom {
+    display: flex;
+    justify-content:space-between;
+    gap: 100px;
+    align-items: flex-end;
+} 
+  
+.section_bottom p {
+    max-width: 600px;  
+}
+  
+/* İçerik Kartları */
+.section-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+  
+  .card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card .icon img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+  }
+  
+  .card .text-content h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #1e1e1e;
+  }
+  
+  .card .text-content p {
+    font-size: 14px;
+    margin: 5px 0 0;
+    color: #555;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+.footer {
+    margin: 8rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    gap: 50px;
+    margin: 0 auto;
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    padding: 5rem;
+    border-radius: 10px;
+    background-color: #fdfdf8;
+
+}
+
+.footer-left {
+    flex: 1;
+    min-width: 250px;
+    margin-right: 20px;
+}
+
+.footer-logo {
+    width: auto;
+    height: 100px;
+    margin-bottom: 16px;
+}
+
+.footer-description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-center {
+    flex: 2;
+    text-align: center;
+    min-width: 300px;
+}
+
+.footer-center p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex: 2;
+    gap: 100px;
+}
+
+.footer_menu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.footer-column h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: #000;
+}

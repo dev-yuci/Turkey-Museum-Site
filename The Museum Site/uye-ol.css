@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s ease; /* Yumuşak geçiş için */
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --body-font: "Satoshi", sans-serif;
+    --head-font: "DM Serif Display", serif;
+    --bg-color: #FBFBF3;
+    --font-color: #231F20;
+}
+
+h1 {
+    font-family: var(--head-font);
+    font-size: 4rem;
+    font-weight: 300;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 120%;
+    letter-spacing: -1px;
+}
+
+body {
+    font-family: var(--body-font);
+    background-color: var(--bg-color);
+    padding-top: 0;
+    padding-bottom: 0;
+    background-image: url(img/Spiral_staircase_in_the_Vatican_Museums.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Form Sayfası */
+.form-container {
+    background-color: var(--bg-color);
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 4rem;
+    font-family: var(--body-font);
+
+}
+
+.form-title {
+    font-size: 2rem;
+    font-family: var(--head-font);
+    text-align: center;
+    color: var(--font-color);
+    margin-bottom: 1.5rem;
+}
+
+.signup-form label {
+    display: block;
+    font-size: 1rem;
+    color: var(--font-color);
+    margin-bottom: 0.5rem;
+}
+
+.signup-form input {
+    font-family: var(--body-font);
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: var(--font-color);
+    background-color: white;
+    outline: none;
+}
+
+.signup-form input:focus {
+    border-color: var(--font-color);
+}
+
+.signup-form .btn {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--font-color);
+    color: white;
+    background-color: black;
+    transition: background-color 0.3s;
+}
+
+.signup-form .btn:hover {
+    opacity: 0.95;
+}
