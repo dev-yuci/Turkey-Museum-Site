@@ -1,13 +1,13 @@
 <h1 align="center">🏛️ Interactive Museum Blog Project</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/github/languages/top/username/interactive-museum-blog?style=for-the-badge">
-  <img src="https://img.shields.io/github/repo-size/username/interactive-museum-blog?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/username/interactive-museum-blog?style=for-the-badge">
+  <img src="https://img.shields.io/github/languages/top/dev-yuci/Turkey-Museum-Site?style=for-the-badge">
+  <img src="https://img.shields.io/github/repo-size/dev-yuci/Turkey-Museum-Site?style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/dev-yuci/Turkey-Museum-Site?style=for-the-badge">
 </p>
 
 <p align="center">
-  <img src="https://your-project-banner.com/banner.png" alt="Project Banner">
+  <img src="https://github.com/dev-yuci/Turkey-Museum-Site/blob/master/TurkeyMuseumSite-1.png" alt="Project Banner">
 </p>
 
 ## 🌟 **Project Overview**  
@@ -53,8 +53,15 @@ The **Interactive Museum Blog Project** aims to create an engaging platform that
 
 ## 📸 **Screenshots**  
 <p align="center">
-  <img src="https://your-screenshot-link.com/screenshot1.png" width="400">
-  <img src="https://your-screenshot-link.com/screenshot2.png" width="400">
+  <img src="https://github.com/dev-yuci/Turkey-Museum-Site/blob/master/TurkeyMuseumSite-1.png" width="400">
+  <img src="https://github.com/dev-yuci/Turkey-Museum-Site/blob/master/TurkeyMuseumSite-2.png" width="400">
+  <img src="https://github.com/dev-yuci/Turkey-Museum-Site/blob/master/TurkeyMuseumSite-3.png" width="400">
+  <img src="https://github.com/dev-yuci/Turkey-Museum-Site/blob/master/TurkeyMuseumSite-4.png" width="400">
+  <img src="https://github.com/dev-yuci/Turkey-Museum-Site/blob/master/TurkeyMuseumSite-5.png" width="400">
+  <img src="https://github.com/dev-yuci/Turkey-Museum-Site/blob/master/TurkeyMuseumSite-6.png" width="400">
+  <img src="https://github.com/dev-yuci/Turkey-Museum-Site/blob/master/TurkeyMuseumSite-7.png" width="400">
+  <img src="https://github.com/dev-yuci/Turkey-Museum-Site/blob/master/TurkeyMuseumSite-8.png" width="400">
+  <img src="https://github.com/dev-yuci/Turkey-Museum-Site/blob/master/TurkeyMuseumSite-9.png" width="400">
 </p>
 
 ---
@@ -65,7 +72,7 @@ Follow these steps to set up and run the project:
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/username/interactive-museum-blog.git
+git clone https://github.com/dev-yuci/Turkey-Museum-Site.git
 
 # 2️⃣ Navigate to the project directory
 cd interactive-museum-blog
